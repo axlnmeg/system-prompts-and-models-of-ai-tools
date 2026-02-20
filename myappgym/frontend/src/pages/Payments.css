@@ -1,0 +1,31 @@
+.payments-page .page-header {
+  margin-bottom: 1.5rem;
+}
+
+.payments-page .page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.payments-page .page-header p {
+  color: var(--gray-500);
+  font-size: 0.875rem;
+}
+
+.payments-page .stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.payments-page .filters-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
