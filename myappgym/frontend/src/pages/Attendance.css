@@ -1,0 +1,49 @@
+.attendance-page .page-header {
+  margin-bottom: 1.5rem;
+}
+
+.attendance-page .page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.attendance-page .page-header p {
+  color: var(--gray-500);
+  font-size: 0.875rem;
+}
+
+.attendance-page .stats-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.attendance-page .card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.checkin-form {
+  display: flex;
+  gap: 1rem;
+  max-width: 400px;
+}
+
+.checkin-form input {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+  color: var(--gray-500);
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .checkin-form {
+    flex-direction: column;
+  }
+}
